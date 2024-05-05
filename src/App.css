@@ -29,6 +29,12 @@ h1 {
   margin-bottom: 25px;
 }
 
+@media screen and (max-width: 724px) {
+  .todo-input {
+    flex-flow: column;
+  }
+}
+
 .todo-input-item {
   display: flex;
   flex-direction: column;
